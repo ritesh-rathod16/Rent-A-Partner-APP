@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     SECRET_KEY: str = "rahFhJk9phc-WPIO-3WmSJ2ZiNIyu6dmBGZaEvns_QQ_qvpbIF249NuwU_7FMtu9T5k"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
-    BASE_URL: str = "http://192.168.29.27:8000" # Overridden by .env or Render ENV VAR
+    BASE_URL: str = "https://rent-a-partner-app.onrender.com" # Overridden by .env or Render ENV VAR
     
     # Razorpay
     RAZORPAY_KEY_ID: str = "rzp_live_S3PqGffrDLRgtX"
