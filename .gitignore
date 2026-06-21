@@ -1,0 +1,24 @@
+# Environments
+.env
+.env.*
+.venv
+env/
+venv/
+
+# Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Flutter
+frontend/build/
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.pub-cache/
+frontend/.pub/
