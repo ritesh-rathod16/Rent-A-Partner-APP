@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+motor
+pymongo
+pydantic[email]
+pydantic-settings
+python-dotenv
+python-multipart
+passlib[bcrypt]
+python-jose[cryptography]
+razorpay
+requests
+firebase-admin
